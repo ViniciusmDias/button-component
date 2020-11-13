@@ -1,11 +1,12 @@
 import React from 'react';
+import StoryBook from './pages/StoryBook';
 import GlobalStyles from './styles/global';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <h1>Hello World!</h1>
+      <StoryBook />
     </>
   );
 }

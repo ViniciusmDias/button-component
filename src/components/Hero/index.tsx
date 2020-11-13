@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer';
 
 import { HeroContainer, ButtonsContainer, Buttons } from './styles';
 
@@ -94,6 +95,7 @@ const Hero: React.FC = () => {
           <button type="button">Default</button>
         </Buttons>
       </ButtonsContainer>
+      <Footer />
     </HeroContainer>
   );
 };

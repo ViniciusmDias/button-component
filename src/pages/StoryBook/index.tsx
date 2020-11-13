@@ -9,7 +9,6 @@ const StoryBook: React.FC = () => {
     <Container>
       <Header />
       <Hero />
-      <footer />
     </Container>
   );
 };

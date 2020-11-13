@@ -1,9 +1,14 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { FooterContainer } from './styles';
 
 const Footer: React.FC = () => {
-  return <div />;
+  return (
+    <FooterContainer>
+      <strong>Icons: https://material.io/resources/icons/?style=round</strong>
+      <h3>ViniciusDias @ DevChallenges.io</h3>
+    </FooterContainer>
+  );
 };
 
 export default Footer;

@@ -5,7 +5,9 @@ export const HeroContainer = styled.section`
   flex: 1;
   flex-direction: column;
   padding: 4vh 5%;
+  margin: 0.5% 0.5% 0.5% 0;
   background: var(--e-global-color-background-primary);
+  border-radius: 0 24px 24px 0;
 
   h1 {
     color: var(--e-global-color-text-default);
@@ -15,10 +17,7 @@ export const HeroContainer = styled.section`
 
 export const ButtonsContainer = styled.section`
   display: flex;
-
-  & + & {
-    margin-top: 5vh;
-  }
+  margin-bottom: 5vh;
 `;
 
 // create a component
@@ -31,12 +30,7 @@ export const Buttons = styled.div`
   }
 
   strong {
-    font-family: 'Ubuntu Mono';
-    font-size: 0.9rem;
-    line-height: 12px;
     margin-bottom: 1vh;
-    color: var(--e-global-color-button-text-span);
-    font-weight: 400;
   }
 
   button {

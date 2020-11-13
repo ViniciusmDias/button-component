@@ -7,9 +7,11 @@ export default createGlobalStyle`
     --e-global-color-text-primary: #2962FF;
     --e-global-color-text-header: #9E9E9E;
     --e-global-color-text-header-selected: #090F31;
+    --e-global-color-text-footer-default: #A9A9A9;
+
 
     --e-global-color-button-text-default: #3F3F3F;
-    --e-global-color-button-text-span: #333333;
+    --e-global-color-button-text-strong: #333333;
     --e-global-color-button-default: #E0E0E0;
     --e-global-color-button-default-hover: #AEAEAE;
     --e-global-color-button-primary: #2962FF;
@@ -58,6 +60,13 @@ export default createGlobalStyle`
     font-size: 1rem;
     line-height: 20px;
     font-weight: 500;
+  }
+  strong {
+    font-family: 'Ubuntu Mono';
+    font-size: 0.9rem;
+    line-height: 12px;
+    margin-bottom: 1vh;
+    font-weight: 400;
   }
 
   button {

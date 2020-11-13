@@ -1,9 +1,14 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { ButtonContainer } from './styles';
 
 const Button: React.FC = () => {
-  return <div />;
+  return (
+    <ButtonContainer>
+      <strong>{`<Button variant=”outline” />`}</strong>
+      <button type="button">Default</button>
+    </ButtonContainer>
+  );
 };
 
 export default Button;

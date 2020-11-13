@@ -1,99 +1,100 @@
 import React from 'react';
 import Footer from '../Footer';
+import Button from '../Button';
 
-import { HeroContainer, ButtonsContainer, Buttons } from './styles';
+import { HeroContainer, ButtonsContainer } from './styles';
 
 const Hero: React.FC = () => {
   return (
     <HeroContainer data-testid="hero-container">
-      <h1>Buttons</h1>
+      <h1>Button</h1>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Buttons>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
-        <Buttons>
+        </Button>
+        <Button>
           <strong>{`<Button variant=”outline” />`}</strong>
           <button type="button">Default</button>
-        </Buttons>
+        </Button>
       </ButtonsContainer>
       <Footer />
     </HeroContainer>

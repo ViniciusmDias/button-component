@@ -1,11 +1,12 @@
 import React from 'react';
+import Header from '../../components/Header';
 
 import { Container } from './styles';
 
 const StoryBook: React.FC = () => {
   return (
     <Container>
-      <header>Hello StoryBook</header>
+      <Header>Hello StoryBook</Header>
       <section />
       <footer />
     </Container>

@@ -17,7 +17,9 @@ export default createGlobalStyle`
     --e-global-color-button-danger: #D32F2F;
     --e-global-color-button-danger: #9A0007;
 
-    --e-global-color-background: #ffffff;
+    --e-global-color-background-default: #333333;
+    --e-global-color-background-primary: #ffffff;
+    --e-global-color-background-header: #FAFBFD;
 
     font-size: 14px;
   }
@@ -41,8 +43,13 @@ export default createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     font-size: 1.715rem;
     line-height: 36px;
-    letter-spacing: -0.035em;
     font-weight: 500;
+  }
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    line-height: 19px;
+    font-weight: 600;
   }
 
   p {

@@ -4,7 +4,7 @@ import { HeroContainer, ButtonsContainer, Buttons } from './styles';
 
 const Hero: React.FC = () => {
   return (
-    <HeroContainer>
+    <HeroContainer data-testid="hero-container">
       <h1>Buttons</h1>
       <ButtonsContainer>
         <Buttons>

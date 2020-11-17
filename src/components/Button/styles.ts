@@ -1,3 +1,78 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { ButtonProps } from './index';
 
-export const ButtonContainer = styled.div``;
+export const ButtonContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  & + & {
+    margin-left: 5%;
+  }
+
+  strong {
+    margin-bottom: 1vh;
+  }
+`;
+
+export const Btn = styled.button<ButtonProps>`
+  display: flex;
+  align-items: center;
+  padding: 1.5vh 2vw;
+  width: max-content;
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  border: none;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+
+  &.outline {
+    background-color: transparent;
+    border: 1px solid;
+  }
+  &.text {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  &.no-shadow {
+    box-shadow: none;
+  }
+  &.disabled {
+    color: #9e9e9e;
+  }
+  &.sm {
+    padding: 1vh 1.5vw;
+  }
+  &.lg {
+    padding: 2vh 2.5vw;
+  }
+  &.primary {
+    background-color: var(--e-global-color-button-primary);
+    color: var(--e-global-color-text-white);
+
+    &.hover {
+      background-color: var(--e-global-color-button-primary-hover);
+    }
+  }
+  &.secondary {
+    background-color: var(--e-global-color-button-secondary);
+    color: var(--e-global-color-text-white);
+
+    &.hover {
+      background-color: var(--e-global-color-button-secondary-hover);
+    }
+  }
+  &.danger {
+    background-color: var(--e-global-color-button-danger);
+    color: var(--e-global-color-text-white);
+
+    &.hover {
+      background-color: var(--e-global-color-button-danger-hover);
+    }
+  }
+  &.hover,
+  &.focus {
+    background: var(--e-global-color-button-default-hover);
+  }
+`;

@@ -4,6 +4,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
   width: 16.5%;
+  min-width: 200px;
   padding: 4vh 3%;
   margin: 0.5% 0 0.5% 0.5%;
   background: var(--e-global-color-background-header);

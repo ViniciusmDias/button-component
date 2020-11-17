@@ -9,92 +9,66 @@ const Hero: React.FC = () => {
     <HeroContainer data-testid="hero-container">
       <h1>Button</h1>
       <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button>{`<Button />`}</Button>
+        <Button hover>&:hover, &:focus</Button>
+      </ButtonsContainer>
+      <ButtonsContainer>
+        <Button color="primary" variant="outline">
+          {`<Button variant=”outline” />`}
         </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button color="primary" variant="outline" focus>
+          &:hover, &:focus
         </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button color="primary" variant="text">
+          {`<Button variant=”text” />`}
         </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button color="primary" variant="text" hover>
+          &:hover, &:focus
         </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
-        </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button disableShadow color="primary">
+          {`<Button disableShadow />`}
         </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button disabled text="disabled">{`<Button disabled />`}</Button>
+        <Button disabled text="disabled" variant="text">
+          {`<Button variant=”text” disabled /> `}
         </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button color="primary" startIcon>
+          {`<Button startIcon=”local_grocery_store” />`}
         </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button color="primary" endIcon>
+          {`<Button endIcon=”local_grocery_store” />`}
         </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button color="primary" size="sm">{`<Button size=”sm” />`}</Button>
+        <Button color="primary" size="md">{`<Button size=”md” />`}</Button>
+        <Button color="primary" size="lg">{`<Button size=”lg” />`}</Button>
+      </ButtonsContainer>
+      <ButtonsContainer>
+        <Button color="default">{`<Button color=”default” /> `}</Button>
+        <Button color="primary">{`<Button color="primary"/>`}</Button>
+        <Button color="secondary" text="secondary">
+          {`<Button color=”secondary”/>`}
         </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button color="danger" text="danger">
+          {`<Button color=”danger”/>`}
         </Button>
       </ButtonsContainer>
       <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
+        <Button hover color="default">
+          &:hover, &:focus
         </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
-        </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
-        </Button>
-      </ButtonsContainer>
-      <ButtonsContainer>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
-        </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
-        </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
-        </Button>
-        <Button>
-          <strong>{`<Button variant=”outline” />`}</strong>
-          <button type="button">Default</button>
-        </Button>
+        <Button hover color="primary" />
+        <Button hover color="secondary" text="secondary" />
+        <Button hover color="danger" text="danger" />
       </ButtonsContainer>
       <Footer />
     </HeroContainer>

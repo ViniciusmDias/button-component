@@ -12,6 +12,10 @@ export const ButtonContainer = styled.div`
   strong {
     margin-bottom: 1vh;
   }
+
+  @media (max-width: 1050px) {
+    margin-top: 2vh;
+  }
 `;
 
 export const Btn = styled.button<ButtonProps>`

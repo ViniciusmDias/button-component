@@ -18,5 +18,6 @@ export const HeroContainer = styled.section`
 export const ButtonsContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
   margin-bottom: 5vh;
 `;

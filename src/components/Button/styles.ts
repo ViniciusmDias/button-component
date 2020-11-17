@@ -26,10 +26,6 @@ export const Btn = styled.button<ButtonProps>`
   text-transform: capitalize;
   border: 1px solid transparent;
 
-  &.outline {
-    background-color: transparent;
-    border: 1px solid;
-  }
   &.text {
     background-color: transparent;
     border: none;
@@ -69,6 +65,14 @@ export const Btn = styled.button<ButtonProps>`
 
     &.hover {
       background-color: var(--e-global-color-button-danger-hover);
+    }
+  }
+  &.outline {
+    background-color: transparent;
+    color: var(--e-global-color-button-primary);
+    border: 1px solid;
+    &.hover {
+      background: rgba(41, 98, 255, 0.1);
     }
   }
   &.hover,

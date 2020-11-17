@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         <Button color="primary" variant="outline">
           {`<Button variant=”outline” />`}
         </Button>
-        <Button color="primary" variant="outline" focus>
+        <Button color="primary" variant="outline" hover>
           &:hover, &:focus
         </Button>
       </ButtonsContainer>

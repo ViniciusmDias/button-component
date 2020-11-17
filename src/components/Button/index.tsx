@@ -57,7 +57,7 @@ const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
   const buttonStyle = `${variant} ${shadow} ${disabled} ${size} ${hover} ${focus} ${color}`;
 
   return (
-    <ButtonContainer>
+    <ButtonContainer data-testid="button-container">
       <strong>{props.children}</strong>
       <div>
         <Btn className={buttonStyle} type="button">

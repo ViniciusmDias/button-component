@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
 
   html {
+    --e-global-color-text-white: #ffffff;
     --e-global-color-text-default: #4F4F4F;
     --e-global-color-text-primary: #2962FF;
     --e-global-color-text-header: #9E9E9E;
@@ -19,7 +20,7 @@ export default createGlobalStyle`
     --e-global-color-button-secondary: #455A64;
     --e-global-color-button-secondary-hover: #1C313A;
     --e-global-color-button-danger: #D32F2F;
-    --e-global-color-button-danger: #9A0007;
+    --e-global-color-button-danger-hover: #9A0007;
 
     --e-global-color-background-default: #333333;
     --e-global-color-background-primary: #ffffff;
@@ -76,9 +77,6 @@ export default createGlobalStyle`
   a, button {
     opacity: 1;
 
-    &:hover {
-      opacity: 0.8;
-    }
   }
   
 `;

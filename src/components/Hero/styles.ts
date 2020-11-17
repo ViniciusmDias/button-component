@@ -17,28 +17,6 @@ export const HeroContainer = styled.section`
 
 export const ButtonsContainer = styled.section`
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 5vh;
-`;
-
-// create a component
-export const Buttons = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  & + & {
-    margin-left: 5%;
-  }
-
-  strong {
-    margin-bottom: 1vh;
-  }
-
-  button {
-    padding: 1vh 2vw;
-    width: max-content;
-    background: #e0e0e0;
-    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
-    border-radius: 6px;
-    border: none;
-  }
 `;
